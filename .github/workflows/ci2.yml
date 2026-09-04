@@ -1,0 +1,5 @@
+jobs:
+  build:
+    runs-on: self-hosted   # 改成 self-hosted 就免费了
+    steps:
+      - uses: actions/checkout@v4
